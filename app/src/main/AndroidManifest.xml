@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CourseStream"
+            android:theme="@style/AppTheme.PopMe"
+            ></activity>
+        <activity android:name=".CourseStreamStudent" />
+        <activity android:name=".CourseStreamTeacher" />
+        <activity android:name=".StudentReceivedActivity" />
+        <activity
+            android:name=".TeacherReceivedActivity"
+            android:parentActivityName=".MessageAvtivity" />
+        <activity
+            android:name=".StudentMessageActivity"
+            android:parentActivityName=".StudentPage" />
+        <activity
+            android:name=".MessageAvtivity"
+            android:parentActivityName=".TeacherPage" />
+        <activity android:name=".AssignAnswerStudent" />
+        <activity
+            android:name=".AssignmentStudent"
+            android:parentActivityName=".StudentPage" />
+        <activity
+            android:name=".AssignAnswersTeacher"
+            android:parentActivityName=".AssignmentTeacher" />
+        <activity
+            android:name=".AssignmentTeacher"
+            android:parentActivityName=".TeacherPage" />
+        <activity
+            android:name=".AnnouncementStudent"
+            android:parentActivityName=".StudentPage" />
+        <activity
+            android:name=".AnnouncementTeacher"
+            android:parentActivityName=".TeacherPage" />
+        <activity
+            android:name=".StudentCourse"
+            android:parentActivityName=".StudentPage" />
+        <activity
+            android:name=".TeacherCourse"
+            android:parentActivityName=".TeacherPage" />
+        <activity
+            android:name=".TeacherPage"
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".StudentPage"
+            android:parentActivityName=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "280555163284",
+    "firebase_url": "https://chatprogram-6efe2.firebaseio.com",
+    "project_id": "chatprogram-6efe2",
+    "storage_bucket": "chatprogram-6efe2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280555163284:android:6ccfd105a4020135e36e81",
+        "android_client_info": {
+          "package_name": "com.example.chatProgram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280555163284-tracl498jgf9qusbh9f7q6ieamaqo0hp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa9b2HFn-lITgSn5E87aIbWs1FW7KMxy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280555163284-tracl498jgf9qusbh9f7q6ieamaqo0hp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

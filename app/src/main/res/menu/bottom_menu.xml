@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Send"
+        android:id="@+id/firstFragment"
+        android:icon="@drawable/ic_send_bottomnav_24dp" />
+    <item android:title="Received"
+        android:id="@+id/secondFragment"
+        android:icon="@drawable/ic_call_received_black_24dp" />
+</menu>

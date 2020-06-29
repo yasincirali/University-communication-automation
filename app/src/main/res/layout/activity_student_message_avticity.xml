@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+
+    tools:context=".StudentMessageActivity">
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/student_message_actionbar"></include>
+
+    <EditText
+        android:id="@+id/std_receiverToSend"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="44dp"
+        android:background="@drawable/edit"
+        android:hint="  To"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+    <EditText
+        android:id="@+id/std_messageToSend"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="44dp"
+        android:background="@drawable/edit"
+        android:hint="  Message"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <Button
+        android:id="@+id/std_sendMessage"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginRight="140dp"
+        android:background="@drawable/button"
+        android:drawableLeft="@drawable/ic_send_black_24dp"
+        android:paddingLeft="15sp"
+        android:text="SEND"
+        android:textColor="#fff" />
+    <Button
+        android:id="@+id/std_receivedMessage"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="140dp"
+        android:background="@drawable/button"
+        android:drawableLeft="@drawable/ic_call_received_black_24dp"
+        android:paddingLeft="15sp"
+        android:text="RECEIVED"
+        android:textColor="#fff" />
+    <ListView
+        android:id="@+id/std_listOfSentMessages"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="330dp">
+
+    </ListView>
+
+</RelativeLayout>

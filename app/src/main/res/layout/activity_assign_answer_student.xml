@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".AssignAnswerStudent">
+
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/assignmentAnswerStdActionbar"></include>
+
+    <TextView
+        android:id="@+id/assignmentCourseCode"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="123dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:hint="  Code"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/assignmentAnswer_description"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:hint="  description"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+    <EditText
+        android:id="@+id/assignmentStdAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:background="@drawable/edit"
+        android:hint="  Answer"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/courseCode"
+        android:background="@drawable/button"
+        android:textColor="#fff"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="154dp"
+        android:text="SUBMIT" />
+    <ListView
+        android:id="@+id/listOfAnswers"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="370dp">
+
+    </ListView>
+
+</RelativeLayout>

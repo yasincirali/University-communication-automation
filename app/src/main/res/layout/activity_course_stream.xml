@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pop_bg"
+    tools:context=".CourseStream">
+    <EditText
+
+        android:id="@+id/StreamComment"
+        android:layout_width="170dp"
+
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/edit"
+        android:hint="  Make a comment"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/addComment"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/StreamComment"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="140dp"
+        android:background="@drawable/button"
+        android:text="POST"
+        android:textColor="#fff"
+        tools:ignore="MissingConstraints" />
+
+    <ListView
+        android:id="@+id/listview_comment"
+        android:layout_marginTop="140dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:divider="#d1d1d1"
+        />
+
+</RelativeLayout>

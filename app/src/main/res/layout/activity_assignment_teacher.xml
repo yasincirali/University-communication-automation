@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".AssignmentTeacher">
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/assignmentActionbar"></include>
+
+    <EditText
+        android:id="@+id/Course_Code"
+        android:background="@drawable/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="123dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:hint="  Course Code" />
+    <EditText
+        android:id="@+id/assignment_description"
+        android:background="@drawable/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="123dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:hint="  Description" />
+
+    <Button
+        android:id="@+id/give_assignment"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Course_Code"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="195dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:background="@drawable/button"
+        android:text="ASSIGN"
+        android:textColor="#fff" />
+    <ListView
+        android:id="@+id/listOfAssignments"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="350dp">
+
+    </ListView>
+
+</RelativeLayout>
